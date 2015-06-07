@@ -1,0 +1,10 @@
+[Unit]
+Description= Google Drive FUSE client
+
+[Service]
+ExecStart=/home/wvi/bin/grivefs /home/wvi/gdrive
+ExecStop=fusermount -u /home/wvi/gdrive
+Restart=always
+
+[Install]
+WantedBy=default.target
