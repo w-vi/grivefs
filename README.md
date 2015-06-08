@@ -1,9 +1,8 @@
 # grivefs
 
 Attemtp to get a google drive [FUSE](http://fuse.sourceforge.net/)
-client. There are not many drive clients for linux and frankly I don't
-like syncing clients anyway as they are mirroring everything on my
-local drive which is something I don't need at all.
+client without huge dependecies. There are not many drive clients for linux and frankly I don't
+like syncing clients anyway and the existing fuse clients are either old or have too many dependecies.
 
 ## How it works
 
