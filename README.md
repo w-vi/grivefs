@@ -1,8 +1,7 @@
 # grivefs
 
 Attemtp to get a google drive [FUSE](http://fuse.sourceforge.net/)
-client without huge dependecies. There are not many drive clients for linux and frankly I don't
-like syncing clients anyway and the existing fuse clients are either old or have too many dependecies.
+client without huge dependecies. It is more of a learning project using Go but it might lead somewhere.
 
 ## How it works
 
